@@ -16,7 +16,7 @@
   <li>Fine Tuning</li>
 </ol>
 
-<p>A convolutional neural network with 4 conv blocks is designed and trained on cats_vs_dogs dataset for binary classification. After training, each filter is removed one at a time and after each removal the test data is evaluated by the model to determine the accuracy change. If the accuracy has not changed by a significant value, the filter is marked as redundant. At the end 3 types of filters are identified, 1. filters that reduce accuracy after removal, 2. filters that increase accuracy after removal and 3. filters that do not have a significant effect on accuracy after removal.</p>
+<p>A convolutional neural network with 4 conv blocks is designed and trained on cats_vs_dogs dataset for binary classification. After training, each filter is removed one at a time and after each removal the test data is evaluated by the model to determine the accuracy change. If the accuracy has not changed by a significant value, the filter is marked as redundant. At the end 3 types of filters are identified, 1. Filters when removed, the accuracy decreases, 2. Filters when removed, the accuracy increases and 3. Filters when removed, no significant change in accuracy.</p>
 
 <h3>Results</h3>
 <p>The best results i got are as follows:</p>
